@@ -5,18 +5,18 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa"
 
 const projects = [
   {
-    title: "E-commerce Platform",
-    description: "A full-stack e-commerce platform built with React, Node.js, and PostgreSQL",
+    title: "Hustlr",
+    description: "A modern job portal platform connecting employers and job seekers. Features include job posting/searching, applicant tracking, resume builder, and real-time notifications. Built with a secure authentication system and responsive design for seamless user experience.",
     image: "/placeholder.svg?height=300&width=400",
-    tags: ["React", "Node.js", "PostgreSQL", "Redux","Mongo"],
-    github: "https://github.com/yourusername/project1",
+    tags: ["React", "SpringBoot", "Mongo","Tailwind","Redux","Mantine","JWT","TypeScript"],
+    github: "https://github.com/yourusername/project1", 
     live: "https://project1.demo.com",
   },
   {
-    title: "Task Management App",
-    description: "A collaborative task management application with real-time updates",
+    title: "Uber",
+    description: "A full-stack Uber clone with real-time tracking, user authentication, and ride booking functionality. Features include interactive maps, driver-rider matching, and secure payment processing.",
     image: "/placeholder.svg?height=300&width=400",
-    tags: ["React", "Firebase", "TailwindCSS"],
+    tags: ["React", "Mongo", "TailwindCSS", "Express.js", "JWT", "GSAP","Socket"],
     github: "https://github.com/yourusername/project2",
     live: "https://project2.demo.com",
   },
