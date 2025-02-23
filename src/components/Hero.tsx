@@ -27,8 +27,11 @@ export default function Hero() {
             className="lg:w-1/2"
           >
             <h1 className="text-4xl lg:text-6xl font-bold text-gray-800 dark:text-white mb-4">Hey There,</h1>
-            <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-              Crafting robust and scalable solutions with modern technologies
+            <h2 className="text-3xl lg:text-2xl inline-block font-bold bg-gradient-to-r from-teal-600 to-blue-600 text-transparent bg-clip-text mb-4">
+              I&apos;m Namra Vora
+            </h2>
+            <p className="text-xl inline-block text-gray-600 dark:text-gray-300 mb-8 text-justify">
+            A passionate Full Stack Developer crafting innovative web solutions using React, Next.js, Spring Boot, and Express. I love building performant applications that solve real-world problems. Always excited to learn new technologies and create meaningful digital experiences that make a difference.
             </p>
             <div className="flex gap-4 mb-8">
               {socialLinks.map((social) => (
@@ -59,9 +62,9 @@ export default function Hero() {
             className="lg:w-1/2"
           >
             <img
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Namra_new.jpg-oDhdnAVPjbKR6xgFF4ost2bwcC1kql.jpeg"
+              src="/Namra_new.jpg"
               alt="Developer"
-              className="rounded-2xl shadow-xl w-full max-w-md mx-auto"
+              className="rounded-3xl shadow-xl w-[70%] max-w-md mx-auto"
             />
           </motion.div>
         </div>
